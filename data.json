@@ -1,0 +1,9 @@
+{
+  "citationExportFormat": "biblatex",
+  "literatureNoteTitleTemplate": "[{{year}}]-{{title}}@{{containerTitle}}",
+  "literatureNoteFolder": "./note/",
+  "literatureNoteContentTemplate": "---\nType: {{entry.type}}\nAuthors: {{authorString}}\nYear: {{year}}\nTitle: {{title}}\nJournal: {{containerTitle}}\nPages: {{page}}\nDOI: {{DOI}}\nPublisher: {{publisher}}\nPlace: {{publisherPlace}}\nTags: {{Tags}}\n---\n# [{{year}}]-{{title}}\n[*Read it now! See in Zotero*]({{zoteroSelectURI}})\n**Web:** [Open online]({{URL}}) \n**Citekey:** {{citekey}}\n**Tags:** \n**视频:**[视频链接]()  \n\n## Abstract\n{{abstract}}\n\n## Notes\n\n\n## Summary\n\n  \n## Research Objective(s)\n\n\n## Background / Problem Statement\n\n\n## Method(s)\n\n\n## Evaluation\n\n\n## Conclusion\n\n\n## Notes（Zotero）\n{{note}}\n\n## References",
+  "markdownCitationTemplate": "[@{{citekey}}]",
+  "alternativeMarkdownCitationTemplate": "@{{citekey}}",
+  "citationExportPath": "./我的文库.bib"
+}
